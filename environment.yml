@@ -1,0 +1,14 @@
+# Course environment for the AI assignments.
+#
+#   conda env create -f environment.yml
+#   conda activate ai-search
+#
+# After this file changes:
+#   conda env update -f environment.yml --prune
+name: ai-search
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - numpy=2.*
+  - pytest=8.*
